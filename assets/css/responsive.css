@@ -1,0 +1,204 @@
+/* Tablet Layout: 768px.*/
+/* @media only screen and (min-width: 768px) and (max-width: 991px) {
+
+} */
+
+/* Mobile Layout: 320px. */
+@media screen and (max-width: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    
+    h2 {
+        font-size: 26px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    h4 {
+        font-size: 18px;
+        line-height: 1.4;
+    }
+
+    h5 {
+        font-size: 16px;
+        line-height: 1.4;
+    }
+
+    h6 {
+        font-size: 14px;
+        line-height: 1.4;
+    }
+    h1,h2,h3,h4,h5,h5{
+    	font-weight: 400;
+    }
+    header{
+        height: unset;
+    }
+    #navbarText{
+        display: block;
+        position: absolute;
+        left: 0px;
+        right: 0px;
+        background: #fff;
+        color: rgb(255, 255, 255);
+        top: 58px;
+        z-index: 5;
+        height: 100vh;
+        transform: translateX(-100%);
+        transition: transform ease-in 0.3s;
+    }
+    .collapse:not(.show) {
+        display: block !important;
+    }
+    .collapse.show{
+        transform: translateX(0%) !important;
+    }
+    .navbar-toggler,.navbar-toggler:focus{
+        border: none;
+        outline: none;
+    }
+    .navbar-toggler img{
+        width: 30px;
+    }
+    .navbar-brand{
+        height: 35px;
+        width: 35px;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 26px;
+    }
+    ul.navbar-nav{
+        margin-top: 20px;
+    }
+    ul.navbar-nav li{
+        padding: 10px 0;
+    }
+    .social-home{
+        text-align: center;
+        left: 0;
+    }
+    .social-home ul li:not(:last-child) {
+        padding-right: 30px;
+    }
+    .social-home ul li a {
+        color: var(--pink) !important;
+    }
+    .section {
+        padding: 0px 0px;
+    }
+    .section-title{
+        margin-bottom: 10px;
+    }
+    .mb-50,.mb-30 {
+        margin-bottom: 0px !important;
+    }
+    .hero{
+        flex-direction: column;
+    }
+    .hero-photo{
+        width: 400px;
+        height: 400px;
+        max-height: 35vw;
+        max-width: 35vw;
+    }
+    .hero-info {
+        font-size: 1.5rem;
+        line-height: 30px;
+        font-weight: 600;
+        padding-top: 16px;
+        padding-left: 0%;
+    }
+    .hero-skew{
+        height: 55vw;
+    }
+    .my-info{
+        bottom: -34px;
+        left: 5px;
+        z-index: 5;
+        flex-direction: column;
+    }
+    .my-info .item{
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+    .my-info .item p{
+        font-weight: 400 !important;
+    }
+    .section-title::before {
+        left: 140px;
+        top: 20px;
+        width: 6px;
+        height: 6px;
+    }
+    .services .section-title::before, .contact .section-title::before {
+        left: 170px;
+    }
+    .services .section-title::after, .contact .section-title::after {
+        left: 180px;
+        width: 125px;
+    }
+    .section-title::after{
+        left: 152px;
+        top: 22px;
+        width: 150px;
+    }
+    .about-me .hero{
+        margin-bottom: 15px;;
+    }
+    .about-text h5{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .btn-custom{
+        display: block;
+    }
+    .skill-box{
+        width: 50%;
+    }
+    .features h5{
+        padding: 15px 0;
+    }
+    .features .timeline{
+        padding: 20px;
+    }
+    .features .timeline .item::after{
+        width: 8px;
+        height: 8px;
+        left: -4px;
+    }
+    .features .timeline .item .content{
+        padding: 0px 0px 32px 20px;
+    }
+    .features .timeline .content h6{
+        font-size: 16px;
+    }
+    .features .timeline .content p{
+        font-size: 14px;
+    }
+    .box{
+        margin-bottom: 10px;
+    }
+    .contact-form{
+        padding: 15px;
+    }
+    .btn-custom{
+        width: 100%;
+    }
+    .contact-info{
+        padding-top: 15px;
+    }
+    .circle-wrapper{
+        width: 60px;
+        height: 60px;
+        right: 1rem;
+        bottom: 0.5rem;
+    }
+}
+
+/* Wide Mobile Layout: 480px. */
+/* @media only screen and (min-width: 480px) and (max-width: 767px) {
+
+} */
